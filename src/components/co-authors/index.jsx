@@ -124,6 +124,7 @@ const CoAuthors = () => {
 
 		// Don't kick off search unless threshold limit meets query length
 		if ( query.length <= threshold ) {
+			setDropdownOptions( [] );
 			return;
 		}
 
