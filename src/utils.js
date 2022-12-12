@@ -74,7 +74,7 @@ export const addItemByValue = (
  */
 export const formatAuthorData = ( { displayName, userNicename, email } ) => {
 	return {
-		label: `${ displayName } | ${ email }`,
+		label: `${ displayName } | ${ email } | ${ userNicename }`,
 		display: displayName,
 		value: userNicename,
 	};
